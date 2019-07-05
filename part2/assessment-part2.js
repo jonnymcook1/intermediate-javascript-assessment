@@ -173,7 +173,7 @@ rememberall()
 // CODE HERE...
 
 function frodo(startingHungerValue, startingDangerValue) {
-  return {dinnerOverFire: finction() {
-    return 
+  return {dinnerOverFire: function() {
+    return dinnerOverFire
   }}
 }

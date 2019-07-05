@@ -57,7 +57,12 @@ var foo;
 // CODE HERE...
 
 let promiseMe = function($q) {
-    
+    let delay = $q.defer()
+    setTimeout(function() {
+        delay.resolve(foo = 'bar')
+
+    }, 20)
+    return delay.promise
 }
 
 
@@ -74,3 +79,5 @@ let promiseMe = function($q) {
 // and then resolve the array as you complete your promise.
 
 // CODE HERE...
+
+
