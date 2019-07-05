@@ -14,7 +14,10 @@
 
 // CODE HERE...
 
-
+let callBinding = function(magicAnimals, updateAnimal, id) {
+    return updateAnimal.call(magicAnimals.filter(x=> {return x.id === id})
+    [0], 'Trogdor')
+}
 
 // *************
 // * PROBLEM 2 *
@@ -29,6 +32,10 @@
 
 // CODE HERE...
 
+let applyBinding = function(magicAnimals, updateAnimal, id) {
+    return updateAnimal.apply(magicAnimals.filter(x=> {return x.id === id})
+    [0], ['being majestic', 'eating rainbows'])
+}
 
 
 // *************
@@ -49,6 +56,9 @@ var foo;
 
 // CODE HERE...
 
+let promiseMe = function($q) {
+    
+}
 
 
 // *************

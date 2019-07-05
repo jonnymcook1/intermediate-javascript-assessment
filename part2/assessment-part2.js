@@ -172,8 +172,8 @@ rememberall()
 
 // CODE HERE...
 
-// function frodo(startingHungerValue, startingDangerValue) {
-//   return {dinnerOverFire: finction() {
-//     return 
-//   }}
-// }
+function frodo(startingHungerValue, startingDangerValue) {
+  return {dinnerOverFire: finction() {
+    return 
+  }}
+}
